@@ -2,12 +2,12 @@ class AgentWidgets < Formula
   desc "Native macOS desktop widgets built by AI agents"
   homepage "https://github.com/Surdeddd/agent-widgets"
   url "https://github.com/Surdeddd/agent-widgets/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "7d847a97ba3563efb8d1dd0438d7610d98d380d445269ed7d729171a383307de"
+  sha256 "03c6016613e9de83c0e5e9b1de316f9fb0c436d41a00514e5ada5be8bc9ae063"
   license "MIT"
   head "https://github.com/Surdeddd/agent-widgets.git", branch: "main"
 
-  depends_on xcode: ["16.3"]
   depends_on macos: :sonoma
+  depends_on xcode: ["16.3"]
   depends_on "xcodegen"
 
   def install
